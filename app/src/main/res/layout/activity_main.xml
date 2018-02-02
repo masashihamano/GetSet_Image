@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.misao.misao_getset_image.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgJpn"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/imgMain"
+        app:srcCompat="@drawable/japan"
+        />
+
+    <ImageView
+        android:id="@+id/imgIta"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/imgMain"
+        app:srcCompat="@drawable/italy"
+        />
+
+    <ImageView
+        android:id="@+id/imgCan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/imgMain"
+        app:srcCompat="@drawable/canada"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgFra"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/imgJpn"
+        app:srcCompat="@drawable/france"
+        />
+
+    <ImageView
+        android:id="@+id/imgInd"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/imgIta"
+        app:srcCompat="@drawable/india"
+        />
+
+    <ImageView
+        android:id="@+id/imgGer"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/imgCan"
+        app:srcCompat="@drawable/germany"
+        />
+
+    <ImageView
+        android:id="@+id/imgBra"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/imgFra"
+        app:srcCompat="@drawable/brazil"
+        />
+
+    <ImageView
+        android:id="@+id/imgSpa"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/imgInd"
+        app:srcCompat="@drawable/spain"
+        />
+
+    <ImageView
+        android:id="@+id/imgThi"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/imgGer"
+        app:srcCompat="@drawable/thai"
+        />
+
+</RelativeLayout>
